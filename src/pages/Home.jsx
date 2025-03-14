@@ -6,6 +6,7 @@ function Home() {
     <Box p={4}>
       <Heading mb={4}>Welcome to My Personal Site</Heading>
       <Text>This is the home page. Hi, I’m Scott!</Text>
+      <h2 class="text-5xl">Testing</h2>
       <Image
         src={migoolioPic}
         alt="Miguel Fondeur"
