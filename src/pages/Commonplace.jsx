@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Box, Heading, Text, VStack, Divider, Container } from '@chakra-ui/react';
 
 function Commonplace() {
   const [quotes, setQuotes] = useState([]);
@@ -20,28 +19,27 @@ function Commonplace() {
   });
 
   return (
-    <Container maxW="container.lg" py={8}>
-      <Heading as="h1" size="xl" mb={6} textAlign="center">
+    <div className="py-8">
+      <h1 clasName="mb-6 text-center">
         Commonplace Book
-      </Heading>
-      <VStack spacing={6} align="stretch">
+      </h1>
+      <div className="flex flex-col">
         {quotes.map((quote, index) => (
-          <Box key={index}>
-            <Text fontStyle="italic" mb={2}>
+          <div key={index}>
+            <p className="italic mb-2">
               “{quote.text}”
-            </Text>
+            </p>
             {quote.author && (
-              <Text fontSize="sm" color="gray.600" textAlign="right">
+              <p className="text-right text-gray-600">
                 — {quote.author}
                 {quote.title && `, ${quote.title}`}
                 {quote.note && ` (${quote.note})`}
-              </Text>
+              </p>
             )}
-            <Divider my={4} />
-          </Box>
+          </div>
         ))}
-      </VStack>
-    </Container>
+      </div>
+    </div>
   );
 }
 

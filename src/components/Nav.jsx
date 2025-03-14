@@ -1,22 +1,19 @@
-import { Box, Button } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
-
 function Nav() {
   return (
-    <Box as="nav" p={4} bg="gray.100">
-      <Button as={Link} to="/" mr={2} colorScheme="teal" variant="outline">
+    <div className="w-100 bg-white block" >
+      <button to="/" className="mr-2">
         Home
-      </Button>
-      <Button as={Link} to="/about" mr={2} colorScheme="teal" variant="outline">
+      </button>
+      <button to="/about" className="mr-2">
         About
-      </Button>
-      <Button as={Link} to="/projects" colorScheme="teal" variant="outline">
+      </button>
+      <button to="/projects" className="mr-2">
         Projects
-      </Button>
-      <Button as={Link} to="/commonplace" colorScheme="teal" variant="outline">
+      </button>
+      <button to="/commonplace">
         Commonplace
-      </Button>
-    </Box>
+      </button>
+    </div>
   );
 }
 

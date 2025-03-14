@@ -1,11 +1,9 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
-
 function Projects() {
   return (
-    <Box p={4}>
-      <Heading mb={4}>My Projects</Heading>
-      <Text>Check out my work—coming soon!</Text>
-    </Box>
+    <>
+      <h2 className="mb-4">My Projects</h2>
+      <p>Check out my work—coming soon!</p>
+    </>
   );
 }
 

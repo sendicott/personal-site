@@ -1,20 +1,12 @@
-import { Box, Heading, Text, Image } from '@chakra-ui/react';
-import migoolioPic from '../assets/migoolio.png';
+import pfp from '../assets/scott.jpeg';
 
 function Home() {
   return (
-    <Box p={4}>
-      <Heading mb={4}>Welcome to My Personal Site</Heading>
-      <Text>This is the home page. Hi, I’m Scott!</Text>
-      <h2 class="text-5xl">Testing</h2>
-      <Image
-        src={migoolioPic}
-        alt="Miguel Fondeur"
-        borderRadius="full"
-        boxSize="150px"
-        mx="auto"
-      />
-    </Box>
+    <>
+      <img src={pfp} alt="Profile photo of Scott Endicott" />
+      <h2 className="mb-4">Welcome to My Personal Site</h2>
+      <p>This is the home page. Hi, I’m Scott!</p>
+    </>
   );
 }
 

@@ -1,11 +1,9 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
-
 function About() {
   return (
-    <Box p={4}>
-      <Heading mb={4}>About Me</Heading>
-      <Text>I’m a developer building cool stuff with React and Vite.</Text>
-    </Box>
+    <>
+      <h2 className="mb-4">About Me</h2>
+      <p>I’m a developer building cool stuff with React and Vite.</p>
+    </>
   );
 }
 
