@@ -29,9 +29,6 @@ body {
   background: var(--color-gray-100);
   margin: 0;
   display: flex;
-  /* place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
 }
 
 h1 {
