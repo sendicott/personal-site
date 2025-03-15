@@ -3,9 +3,9 @@ import logo from '../assets/endicott-logo.png';
 
 function Header() {
   return (
-    <div className="absolute h-40 flex justify-between px-16 items-center w-full bg-white" >
+    <div className="absolute h-24 flex justify-between px-16 items-center w-full bg-white" >
       <div>
-        <img className="h-40" src={logo} alt="Logo" />
+        <img className="h-18" src={logo} alt="Logo" />
       </div>
       <Nav />
     </div>

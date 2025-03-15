@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mt-40">
+      <div className="mt-24">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
