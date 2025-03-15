@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mt-24">
+      <div className="mt-24 max-w-5xl mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
