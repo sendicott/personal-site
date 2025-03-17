@@ -1,4 +1,10 @@
 import pfp from '../assets/scott.jpeg';
+import bcLogo from '../assets/best-colleges.svg';
+import rvLogo from '../assets/red-ventures.svg';
+import tbsLogo from '../assets/the-best-schools.svg';
+import njLogo from '../assets/nurse-journal.svg';
+import cnetLogo from '../assets/cnet.svg';
+import gskLogo from '../assets/gsk.svg';
 
 function Home() {
   return (
@@ -38,7 +44,7 @@ function Home() {
         </article>
       </section>
 
-      <section className="py-10 md:py-16" id="portfolio">
+      <section className="py-10 md:py-16" id="work-history">
         <div className="container max-w-screen-xl mx-auto">
           <div className="mb-18">
             <h2 className="text-gray-900 text-4xl md:text-5xl mb-5">Work History</h2>
@@ -80,6 +86,26 @@ function Home() {
               </article>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="" id="brands">
+        <h2 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Brands</h2>
+        <p className="font-normal text-gray-500 text-xs md:text-base mb-10">Notable companies I've collaborated with on significant projects</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8">
+            <img className="mx-auto grayscale" src={bcLogo} alt="BC Logo" />
+   
+            <img className="mx-auto grayscale" src={rvLogo} alt="RV Logo" />
+
+            <img className="mx-auto grayscale" src={tbsLogo} alt="TBS Logo" />
+
+            <img className="mx-auto grayscale" src={njLogo} alt="NJ Logo" />
+
+            <img className="mx-auto grayscale" src={cnetLogo} alt="CNET Logo" />
+
+            <img className="mx-auto grayscale" src={gskLogo} alt="GSK Logo" />
+
         </div>
       </section>
     </div>
