@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Commonplace from './pages/Commonplace';
+import TouchOfWisdom from './pages/TouchOfWisdom';
 import Projects from './pages/Projects';
 import './App.css'
 
@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mt-24 max-w-5xl mx-auto">
+      <div className="mt-24 max-w-7xl mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/commonplace" element={<Commonplace />} />
+          <Route path="/touch-of-wisdom" element={<TouchOfWisdom />} />
         </Routes>
       </div>
       <Footer />

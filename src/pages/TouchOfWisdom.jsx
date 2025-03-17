@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function Commonplace() {
+function TouchOfWisdom() {
   const [quotes, setQuotes] = useState([]);
   const API_URL = 'https://touch-of-wisdom-api.onrender.com';
 
@@ -19,13 +19,13 @@ function Commonplace() {
   });
 
   return (
-    <div className="py-8">
-      <h1 clasName="mb-6 text-center">
-        Commonplace Book
+    <div className="p-8 md:p-16">
+      <h1 className="mb-16 text-center">
+        Touch of Wisdom
       </h1>
       <div className="flex flex-col">
         {quotes.map((quote, index) => (
-          <div key={index}>
+          <div key={index} className="mb-8">
             <p className="italic mb-2">
               “{quote.text}”
             </p>
@@ -43,4 +43,4 @@ function Commonplace() {
   );
 }
 
-export default Commonplace;
+export default TouchOfWisdom;
