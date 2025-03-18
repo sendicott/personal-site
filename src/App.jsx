@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import TouchOfWisdom from './pages/TouchOfWisdom';
-import Projects from './pages/Projects';
 import './App.css'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/touch-of-wisdom" element={<TouchOfWisdom />} />
         </Routes>
       </div>
