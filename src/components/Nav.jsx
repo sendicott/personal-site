@@ -42,18 +42,11 @@ function Nav() {
           About
         </NavLink>
         <NavLink
-          to="/projects"
-          className="block md:inline-block mr-6 hover:border-b-2 hover:border-orange-300 hover:text-gray-600"
-          onClick={() => setIsOpen(false)}
-        >
-          Projects
-        </NavLink>
-        <NavLink
           to="/touch-of-wisdom"
           className="block md:inline-block hover:border-b-2 hover:border-orange-300 hover:text-gray-600"
           onClick={() => setIsOpen(false)}
         >
-          Touch of Wisdom
+          Touch of Wisdom API
         </NavLink>
       </div>
     </nav>
