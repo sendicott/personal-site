@@ -41,13 +41,13 @@ function Nav() {
         >
           About
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to="/touch-of-wisdom"
           className="block md:inline-block hover:border-b-2 hover:border-orange-300 hover:text-gray-600"
           onClick={() => setIsOpen(false)}
         >
           Touch of Wisdom API
-        </NavLink>
+        </NavLink> */}
       </div>
     </nav>
   );
