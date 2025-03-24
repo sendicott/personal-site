@@ -11,7 +11,7 @@ function About() {
 
   const arrayOfHotTakes = [
     'Having your own baby unlocks the cuteness of all babies.',
-    'React and Vue are just JavaScript. Focus on learning vanilla JS.',
+    'JS frameworks are just JavaScript. Focus on learning vanilla JS.',
     'Read the Chronicles of Narnia in publication order, not chronological order.',
     'Get married young and grow up together.',
     'Goldendoodles were designed for walking on sidewalks. Don\'t get one if you live in the country. They will accumulate every leaf and twig in a 5 mile radius. Learn from my mistakes.',
@@ -22,6 +22,7 @@ function About() {
     'There will never be a better time than right now to start raising chickens.',
     'Don\'t only consume. Create. Write a letter, build a website, learn an instrument.',
     'The more specific a story is, the more people it will resonate with.',
+    'You have not met everyone yet who will love you.'
   ];
 
   const [hotTake, setHotTake] = useState('');
